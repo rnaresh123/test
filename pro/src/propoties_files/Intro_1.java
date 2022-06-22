@@ -8,6 +8,7 @@ import java.util.Properties;
 public class Intro_1 {
 public static void main(String[] args) throws IOException {
 	Properties prop=new Properties();
+	//harsha
 	FileInputStream fis=new FileInputStream("/QAfox_tutorials/Files/Property_Files/data_01.properties") ;
 	prop.load(fis);
 	System.out.println(prop.getProperty("name"));
